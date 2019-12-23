@@ -47,7 +47,9 @@ def total_gross(source)
   total = 0
   profits = directors_totals(source) 
   director_list = list_of_directors(source)
-  pp profits
+  director_index = 0
+  while director_index < director_list.length do
+    director_list[director_index]
   return total
 end
 
