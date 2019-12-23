@@ -51,6 +51,7 @@ def total_gross(source)
   while director_index < director_list.length do
     total += profits[director_list[director_index]]
     director_index += 1
+  end
   return total
 end
 
