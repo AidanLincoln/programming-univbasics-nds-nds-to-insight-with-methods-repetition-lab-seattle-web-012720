@@ -47,6 +47,7 @@ def total_gross(source)
   total = 0
   profits = directors_totals(source) 
   director_list = list_of_directors(source)
+  pp profits
   return total
 end
 
